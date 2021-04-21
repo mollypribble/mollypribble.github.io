@@ -31,7 +31,7 @@ Project grid: .project-wrapper-left, .project-wrapper-right, .alt-project-wrappe
 Full Text: .text-center
 Image left: 
 Image right:
-Full Image: 
+Full Image: .full-image
 
 Image/caption: 
 */
@@ -115,6 +115,16 @@ Image/caption:
         display: none;
     }
   }
+
+.full-image{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    height: 58%;
+    object-fit: cover;
+}
 
 .clear{
     clear: both;
