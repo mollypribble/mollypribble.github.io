@@ -1,0 +1,133 @@
+/*COLORS: 
+Text: #272727
+Background: #FDF7FA
+Main Color: #7B9EA8
+Accent: #B0F2B4
+*/
+
+body{
+    background-color: #FDF7FA;
+}
+
+/* TEXT 
+Logo: .logo
+Titles: .title
+Subtitles: .sub-title
+Text: .text
+Caption: .caption
+*/
+.logo{
+    font-style: oblique;
+    font-size: 50px;
+}
+
+/* CONTEXT DIVS 
+Header: .header
+Footer: .footer, .spacer
+
+Baisc Wrapper: .wrapper
+Project grid: .project-wrapper-left, .project-wrapper-right, .alt-project-wrapper
+
+Full Text: .text-center
+Image left: 
+Image right:
+Full Image: 
+
+Image/caption: 
+*/
+
+.header{
+    width: 100%;
+    height: 150px;
+}
+
+.logo-wrapper{
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-bottom: auto;
+    float: left;
+}
+
+.menu-wrapper{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-bottom: auto;
+    float: right;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+}
+
+.wrapper{
+    width: 100%;
+}
+
+.project-wrapper-left{
+    width: 40%;
+    margin-left: 10%;
+    float: left;
+}
+
+.project-wrapper-right{
+    width: 40%;
+    margin-right: 10%;
+    float: left;
+}
+
+.alt-project-wrapper{
+    width: 80%;
+    margin: 10%;
+}
+
+.project-image{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 70px;
+    margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 999px){
+    .alt-project-wrapper{
+      display: none;
+    }
+  }
+
+@media only screen and (min-width: 999px){
+    .alt-project-wrapper{
+        display: none;
+    }
+  }
+
+@media only screen and (max-width: 999px){
+    .project-wrapper-left{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 999px){
+    .project-wrapper-right{
+        display: none;
+    }
+  }
+
+.clear{
+    clear: both;
+}
+.spacer{
+    width: 100%;
+    height: 50px;
+}
+
+.text-center{
+    margin: auto;
+    width: 60%;
+}
+
+
+
