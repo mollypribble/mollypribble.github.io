@@ -40,7 +40,7 @@ body{
 
 /* TEXT 
 Logo: .logo
-Titles: .title
+Titles: .title, mark
 Text: .text, .subtitle
 Caption: .caption
 Nav: .nav-text, .nav-text-here
@@ -51,15 +51,26 @@ a {
     color: inherit;
 }
 
+mark {
+    background-color: #a8ccd6;
+    color: inherit;
+}
+
+mark:hover {
+    background-color: #B0F2B4;
+    transition: 0.3s;
+}
+
 .logo{
     font-family: 'Ostrich Sans';
-    font-size: 100px;
+    font-size: 45px;
     color: #272727;
 }
 
 .title{
     font-family: 'Montserrat';
     font-size: 60px;
+    color: #272727;
 }
 
 .subtitle{
@@ -74,7 +85,7 @@ a {
 
 .project-text{
     font-family: 'Lato';
-    font-size: 20px;
+    font-size: 25px;
 }
 
 figcaption {
@@ -169,6 +180,13 @@ Image/caption:
     opacity: 0.8;
 }
 
+.contact-icon:hover {
+    width: 70px;
+    margin: 15px;
+    height: 70px;
+    transition: 0.3s;
+}
+
 .wrapper{
     width: 100%;
 }
@@ -197,6 +215,7 @@ Image/caption:
     margin-top: 70px;
     margin-bottom: 5px;
     position: relative;
+    overflow: hidden;
 }
 .project-image{
     width: 100%;
@@ -232,7 +251,12 @@ Image/caption:
     background: #7B9EA8;
     visibility: hidden;
     opacity: 0;
-    transition: opacity .2s, visibility .2s;
+    transition: opacity .3s, visibility .3s;
+}
+
+.project-image-wrapper:hover .project-image{
+    transform: scale(1.1);
+    transition: 0.3s ease;
 }
 
 .project-image-wrapper:hover .image-overlay {
