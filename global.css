@@ -6,6 +6,11 @@
     src: url(./text-styles/Montserrat/Montserrat-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url(./text-styles/Montserrat/Montserrat-SemiBold.ttf);
+}
+
 @font-face{
     font-family: 'Ostrich Sans';
     src: url(./text-styles/ostrich-sans-master/OstrichSans-Bold.otf);
@@ -63,7 +68,7 @@ mark:hover {
 
 .logo{
     font-family: 'Ostrich Sans';
-    font-size: 45px;
+    font-size: 55px;
     color: #272727;
 }
 
@@ -71,6 +76,13 @@ mark:hover {
     font-family: 'Montserrat';
     font-size: 60px;
     color: #272727;
+}
+
+.index-title{
+    font-family: 'Montserrat';
+    font-size: 70px;
+    color: #272727;
+    margin-bottom: 0.5em;
 }
 
 .subtitle{
@@ -81,6 +93,16 @@ mark:hover {
 .text{
     font-family: 'Lato';
     font-size: 26px;
+}
+
+.index-text{
+    /*font-family: 'Lato';
+    font-size: 26px;*/
+    color: #a8ccd6;
+    font-family: 'Montserrat Bold';
+    font-size: 55px;
+    text-align: right;
+    margin-top: 0.5rem;
 }
 
 .project-text{
@@ -137,11 +159,12 @@ Image/caption:
 }
 
 .logo-wrapper{
-    width: 150px;
+    width: 80px;
     margin-top: 50px;
-    margin-left: 8%;
+    margin-left: 7%;
     margin-bottom: auto;
     float: left;
+    text-align: center;
 }
 
 .menu-wrapper{
@@ -192,14 +215,14 @@ Image/caption:
 }
 
 .project-wrapper-left{
-    width: 40%;
-    margin-left: 10%;
+    width: 45%;
+    margin-left: 5%;
     float: left;
 }
 
 .project-wrapper-right{
-    width: 40%;
-    margin-right: 10%;
+    width: 45%;
+    margin-right: 5%;
     float: left;
 }
 
@@ -209,11 +232,11 @@ Image/caption:
 }
 
 .project-image-wrapper{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 70px;
-    margin-bottom: 5px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     position: relative;
     overflow: hidden;
 }
@@ -274,6 +297,12 @@ Image/caption:
     .project-wrapper-left{
         display: none;
     }
+    .index-title{
+        font-size: 50px;
+    }
+    .index-text{
+        font-size: 30px;
+    }
   }
 
   @media only screen and (max-width: 999px){
@@ -293,9 +322,9 @@ Image/caption:
 }
 
 .hero-image{
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-top: 40px;
     margin-bottom: 10px;
     height: 30%;
@@ -336,8 +365,22 @@ Image/caption:
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 68%;
+    width: 82%;
 }
 
+
+@media only screen and (max-width: 400px){
+    .menu-wrapper{
+        width: 76px;
+        margin-right: 2%;
+    }
+    .project-title-header{
+        font-size: 22px;
+    }
+    
+    .project-title-text{
+        font-size: 14px;
+    }
+  }
 
 
