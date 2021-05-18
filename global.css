@@ -76,6 +76,7 @@ mark:hover {
     font-family: 'Montserrat';
     font-size: 60px;
     color: #272727;
+    margin-bottom: 40px;
 }
 
 .index-title{
@@ -92,7 +93,7 @@ mark:hover {
 
 .text{
     font-family: 'Lato';
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .index-text{
@@ -107,7 +108,7 @@ mark:hover {
 
 .project-text{
     font-family: 'Lato';
-    font-size: 25px;
+    font-size: 20px;
 }
 
 figcaption {
@@ -261,7 +262,7 @@ Image/caption:
 
 .project-title-text{
     font-family: 'Lato';
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .image-overlay{
@@ -278,13 +279,13 @@ Image/caption:
 }
 
 .project-image-wrapper:hover .project-image{
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.3s ease;
 }
 
 .project-image-wrapper:hover .image-overlay {
     visibility: visible;
-    opacity: 0.5;
+    opacity: 0.9;
   }
 
 @media only screen and (min-width: 999px){
@@ -325,9 +326,9 @@ Image/caption:
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 40px;
+    margin-top: 25px;
     margin-bottom: 10px;
-    height: 30%;
+    height: 200px;
     object-fit: cover;
 }
 
@@ -340,9 +341,10 @@ Image/caption:
 }
 
 .right-image{
-    width: 50%;
+    width: 40%;
     margin-top: 40px;
     margin-bottom: 10px;
+    margin-right: 10%;
     float: right;
 }
 
@@ -382,6 +384,44 @@ Image/caption:
     width: 82%;
 }
 
+.left-center{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 82%;
+    display: none;
+}
+
+.small-image-center{
+    width: 58%;
+    margin-left: 21%;
+    margin-right: 21%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: none;
+}
+
+@media only screen and (max-width: 820px){
+    .left-text{
+        display: none;
+    }
+    .right-text{
+        display: none;
+    }
+    .left-image{
+        display: none;
+    }
+    .right-image{
+        display: none;
+    }
+    .left-center{
+        display: block;
+    }
+    .small-image-center{
+        display: block;
+    }
+}
+
 
 @media only screen and (max-width: 400px){
     .menu-wrapper{
@@ -391,9 +431,11 @@ Image/caption:
     .project-title-header{
         font-size: 22px;
     }
-    
     .project-title-text{
         font-size: 14px;
+    }
+    .title{
+        font-size: 40px;
     }
   }
 
