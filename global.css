@@ -129,6 +129,7 @@ figcaption {
     font-size: 18px;
     text-decoration: none;
     color: #0F0F0F;
+    cursor: pointer;
 }
 
 .nav-text-here{
@@ -137,6 +138,32 @@ figcaption {
     text-decoration: none;
     color: #676767;
 }
+
+.about-nav{
+    font-family: 'Lato';
+    font-size: 18px;
+    text-decoration: none;
+    color: #0F0F0F;
+    padding: 14px;
+    cursor: pointer;
+}
+
+#about-nav-here{
+    font-family: 'Lato Italic';
+    font-size: 18px;
+    text-decoration: none;
+    color: #676767;
+    padding: 14px;
+    cursor: pointer;
+}
+
+.about-tabs{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ }
 
 
 /* CONTEXT DIVS 
@@ -355,6 +382,17 @@ Image/caption:
     float: left;
 }
 
+.about-image{
+    height: 400px;
+    max-width: 35%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-right: 15%;
+    float: right;
+    object-fit: cover;
+    overflow: hidden;
+}
+
 .left-text{
     width: 40%;
     margin-top: 10px;
@@ -406,6 +444,9 @@ Image/caption:
         display: none;
     }
     .right-text{
+        display: none;
+    }
+    .about-image{
         display: none;
     }
     .left-image{
