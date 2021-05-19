@@ -127,6 +127,11 @@ mark:hover {
     font-size: 20px;
 }
 
+.story-project-text{
+    font-family: 'Lato';
+    font-size: 20px;
+}
+
 figcaption {
     font-family: 'Lato';
     font-size: 16px;
@@ -157,6 +162,16 @@ figcaption {
     padding: 4px;
 }
 
+.nav-text-here:hover{
+    background-color: #B0F2B4;
+    transition: 0.3s;
+}
+
+.nav-text:hover{
+    background-color: #B0F2B4;
+    transition: 0.3s;
+}
+
 .about-nav{
     font-family: 'Lato';
     font-size: 18px;
@@ -165,6 +180,7 @@ figcaption {
     margin: 10px;
     padding: 4px;
     cursor: pointer;
+    transition: 0.3s;
 }
 
 #about-nav-here{
@@ -175,7 +191,6 @@ figcaption {
     margin: 10px;
     padding: 4px;
     cursor: pointer;
-    background-color: #B0F2B4;
 }
 
 .about-tabs{
@@ -396,6 +411,14 @@ Image/caption:
     float: right;
 }
 
+.right-image-smh{
+    width: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10%;
+    float: right;
+}
+
 .left-image{
     width: 50%;
     margin-top: 40px;
@@ -455,8 +478,8 @@ Image/caption:
     width: 58%;
     margin-left: 21%;
     margin-right: 21%;
-    margin-top: 40px;
-    margin-bottom: 10px;
+    margin-top: 60px;
+    margin-bottom: 0px;
     display: none;
 }
 
@@ -478,6 +501,9 @@ Image/caption:
         display: none;
     }
     .right-image{
+        display: none;
+    }
+    .right-image-smh{
         display: none;
     }
     .left-center{
@@ -651,6 +677,70 @@ section{
     }
     .collage-title-text{
         display: none;
+    }
+}
+
+.story-wrapper{
+    width: 100%;
+}
+
+.story{
+    display: flex;
+    flex-direction: row;
+}
+
+.story-pic{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.story-thumbnail{
+    display: flex;
+    width: 30%;
+    float: left;
+    padding: 20px;
+    object-fit: contain;
+}
+
+.story-exerpt{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    float: left;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.story:hover{
+    background-color: #B0F2B4;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 500px){
+    .story-thumbnail{
+        display: none;
+    }
+    .story-project-text{
+        font-size: 12px;
+    }
+    .story-exerpt{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1400px){
+
+    .story-pic{
+        width: 100px;
+        height: 100px;
+    }
+    .story-thumbnail{
+        width:100px;
+        padding-top: 44px;
+    }
+    .story-exerpt{
+        width: 100%;
     }
 }
 
