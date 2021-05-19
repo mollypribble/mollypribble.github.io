@@ -547,6 +547,8 @@ Image/caption:
 
 .collage{
     display: grid;
+    width:  80%;
+    padding-left: 10%;
     grid-template-columns: 1fr 0.5fr 0.25fr 0.5fr;
     grid-template-rows: 0.15fr 0.15fr 0.15fr 0.75fr 1fr;
     grid-template-areas: 
@@ -604,7 +606,8 @@ section{
 
 .collage-image{
     width: 100%;
-    object-fit: contain;
+    /*object-fit: contain;*/
+    object-fit: fill;
 }
 
 .collage-image-wrapper{
