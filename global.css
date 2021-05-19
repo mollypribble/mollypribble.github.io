@@ -16,6 +16,11 @@
     src: url(./text-styles/Montserrat/Montserrat-SemiBold.ttf);
 }
 
+@font-face {
+    font-family: 'Montserrat Italic';
+    src: url(./text-styles/Montserrat/Montserrat-MediumItalic.ttf);
+}
+
 @font-face{
     font-family: 'Ostrich Sans';
     src: url(./text-styles/ostrich-sans-master/OstrichSans-Bold.otf);
@@ -136,7 +141,7 @@ figcaption {
 }
 
 .nav-text{
-    font-family: 'Montserrat Thin';
+    font-family: 'Lato';
     font-size: 18px;
     text-decoration: none;
     color: #272727;
@@ -150,7 +155,6 @@ figcaption {
     text-decoration: none;
     color: #272727;
     padding: 4px;
-    background-color: #B0F2B4;
 }
 
 .about-nav{
@@ -513,4 +517,140 @@ Image/caption:
     }
   }
 
+  /*SAVE MI  HEART GIRD  LAYOUT*/
+
+.collage{
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.25fr 0.5fr;
+    grid-template-rows: 0.15fr 0.15fr 0.15fr 0.75fr 1fr;
+    grid-template-areas: 
+        "a6 a6 a2 a2"
+        "a1 a1 a2 a2"
+        "a5 a5 a2 a2"
+        "a8 a8 a9 a9"
+        "a10 a10 a10 a10";
+    grid-gap: 1rem;
+    margin: 0rem;
+  }
+
+section{
+    display: flex;
+    font-family: 'Arial';
+    justify-content: center;
+    align-items: center;
+}
+
+.chain{
+    grid-area: a1;
+}
+
+.color-1{
+    grid-area: a2;
+}
+
+.color-2{
+    grid-area: a3;
+}
+
+.color-3{
+    grid-area: a4;
+}
+
+.ekg{
+    grid-area: a5;
+}
+
+.existing-logo{
+    grid-area: a6;
+}
+
+.line-1{
+    grid-area: a8;
+}
+
+.hands-logo{
+    grid-area: a9;
+}
+
+.final-logo{
+    grid-area: a10;
+}
+
+.collage-image{
+    width: 100%;
+    object-fit: contain;
+}
+
+.collage-image-wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.collage-image-overlay{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #e3e3e3;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .3s, visibility .3s;
+}
+
+.collage-image-wrapper:hover .collage-image{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
+.collage-image-wrapper:hover .collage-image-overlay {
+    visibility: visible;
+    opacity: 0.93;
+  }
+
+  .collage-title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+
+.collage-title-header{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: black;
+}
+
+.collage-title-text{
+    font-family: 'Lato';
+    font-size: 16px;
+    color: black;
+}
+
+@media only screen and (max-width: 900px){
+    .collage-title-header{
+        font-size: 15px;
+    }
+    .collage-title-text{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .collage-title-header{
+        font-size: 7px;;
+    }
+    .collage-title{
+        text-align: center;
+    }
+    .collage-title-text{
+        display: none;
+    }
+}
 
