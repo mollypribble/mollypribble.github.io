@@ -662,12 +662,33 @@ section{
     color: black;
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1300px){
     .collage-title-header{
+        font-size: 18px;
+    }
+    .collage-title-text{
         font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1150px){
+    .collage-title-header{
+        font-size: 16px;
     }
     .collage-title-text{
         font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1020px){
+    .collage-title-header{
+        font-size: 13px;
+    }
+    .collage-title-text{
+        font-size: 11px;
+    }
+    .collage{
+        width:90%;
     }
 }
 
