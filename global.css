@@ -93,6 +93,7 @@ mark:hover {
     font-family: 'Montserrat';
     font-size: 70px;
     color: #272727;
+    text-align: left;
     margin-bottom: 0.5em;
 }
 
@@ -111,6 +112,14 @@ mark:hover {
     font-family: 'Montserrat Bold';
     font-size: 55px;
     text-align: right;
+    margin-top: 0.5rem;
+}
+
+.header-text{
+    color: #a8ccd6;
+    font-family: 'Montserrat Bold';
+    font-size: 35px;
+    text-align: left;
     margin-top: 0.5rem;
 }
 
@@ -260,6 +269,12 @@ Image/caption:
     margin: auto;
 }
 
+.proj-thumb{
+    width:  200px;
+    height: 200px;
+    float:left;
+}
+
 .contact-icon{
     width: 50px;
     margin: 15px;
@@ -278,6 +293,7 @@ Image/caption:
 .wrapper{
     width: 100%;
 }
+
 
 .project-wrapper-left{
     width: 35%;
@@ -460,6 +476,13 @@ Image/caption:
     float: left;
 }
 
+.right-text-proj{
+    width: 60%;
+    margin-top: 0px;
+    margin-left: 15px;
+    float: left;
+}
+
 .clear{
     clear: both;
 }
@@ -506,6 +529,9 @@ Image/caption:
     .right-text{
         display: none;
     }
+    .right-text-proj{
+        display: none;
+    }
     .about-image{
         display: none;
     }
@@ -523,6 +549,9 @@ Image/caption:
     }
     .small-image-center{
         display: block;
+    }
+    .proj-thumb{
+        display: none;
     }
 }
 
