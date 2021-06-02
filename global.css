@@ -128,8 +128,14 @@ mark:hover {
     font-family: 'Montserrat Bold';
     font-size: 24px;
     text-align: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #a8ccd6;
 }
 
 .header-text-htc{
@@ -511,6 +517,19 @@ Image/caption:
 .spacer{
     width: 100%;
     height: 50px;
+}
+
+.spacer1{
+    width: 100%;
+    height: 102px;
+}
+.spacer2{
+    width: 100%;
+    height: 126px;
+}
+.spacer3{
+    width: 100%;
+    height: 30px;
 }
 
 .text-center{
