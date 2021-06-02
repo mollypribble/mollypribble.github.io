@@ -123,6 +123,15 @@ mark:hover {
     margin-top: 0.5rem;
 }
 
+.standout-text{
+    color: #272727;
+    font-family: 'Montserrat Bold';
+    font-size: 24px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 .header-text-htc{
     color: #272727;
     font-family: 'Montserrat Bold';
@@ -599,17 +608,39 @@ Image/caption:
 
   /*SAVE MI  HEART GIRD  LAYOUT*/
 
-.collage{
+.collage1{
     display: grid;
     width:  80%;
     padding-left: 10%;
     grid-template-columns: 1fr 0.5fr 0.25fr 0.5fr;
-    grid-template-rows: 0.15fr 0.15fr 0.15fr 0.75fr 1fr;
+    grid-template-rows: 0.15fr 0.15fr 0.15fr;
     grid-template-areas: 
         "a6 a6 a2 a2"
         "a1 a1 a2 a2"
-        "a5 a5 a2 a2"
-        "a8 a8 a9 a9"
+        "a5 a5 a2 a2";
+    grid-gap: 1rem;
+    margin: 0rem;
+  }
+
+.collage2{
+    display: grid;
+    width:  80%;
+    padding-left: 10%;
+    grid-template-columns: 1fr 0.5fr 0.25fr 0.5fr;
+    grid-template-rows: 0.75fr;
+    grid-template-areas: 
+        "a8 a8 a9 a9";
+    grid-gap: 1rem;
+    margin: 0rem;
+  }
+
+.collage3{
+    display: grid;
+    width:  80%;
+    padding-left: 10%;
+    grid-template-columns: 1fr 0.5fr 0.25fr 0.5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
         "a10 a10 a10 a10";
     grid-gap: 1rem;
     margin: 0rem;
