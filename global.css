@@ -547,7 +547,22 @@ Image/caption:
     width: 82%;
 }
 
+.text-center-about{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 82%;
+}
+
 .left-center{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 82%;
+    display: none;
+}
+
+.left-center-about{
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -568,6 +583,18 @@ Image/caption:
     display: none;
 }
 
+@media only screen and (max-width: 1095px){
+    .about-image{
+        display: none;
+    }
+    .left-center-about{
+        display: block;
+    }
+    .text-center-about{
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 820px){
     .left-text{
         display: none;
@@ -579,9 +606,6 @@ Image/caption:
         display: none;
     }
     .right-text-proj{
-        display: none;
-    }
-    .about-image{
         display: none;
     }
     .left-image{
