@@ -146,6 +146,17 @@ mark:hover {
     background-color: #a8ccd6;
 }
 
+.standout-text2{
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #ffffff;
+}
+
 .header-text-htc{
     color: #272727;
     font-family: 'Montserrat Bold';
@@ -434,7 +445,6 @@ Image/caption:
     margin-right: 10%;
     margin-top: 40px;
     margin-bottom: 10px;
-    height: 58%;
     object-fit: cover;
 }
 
@@ -699,6 +709,29 @@ Image/caption:
     grid-gap: 1rem;
     margin: 0rem;
   }
+
+  .collage-edc{
+    display: grid;
+    width:  80%;
+    padding-left: 10%;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 0.3fr 0.15fr;
+    grid-template-areas: 
+        "edc1 edc3"
+        "edc2 edc2";
+    grid-gap: 1rem;
+    margin: 0rem;
+  }
+
+  .brainstorm1{
+      grid-area: edc1;
+  }
+  .brainstorm2{
+    grid-area: edc2;
+}
+.brainstorm3{
+    grid-area: edc3;
+}
 
 section{
     display: flex;
