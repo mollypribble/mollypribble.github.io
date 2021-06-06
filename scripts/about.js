@@ -37,7 +37,7 @@ const updateText = ev =>{
         document.querySelectorAll("[data-id='about-1']")[0].style["border"] =  "1px solid #272727";
         document.querySelectorAll("[data-id='about-1']")[1].style["border"] =  "1px solid #272727";
         description.innerHTML = `
-        <p class = "text"><b>To the world </b>- I'm a student at Northwestern.  I'm a coder, a mentor, a writer, and an aspiring designer.<br><br><b>To my friends </b>- I'm reliable, creative, and supportive. I'm a dog-lover, a (sometimes poor) plant-mom, and a Harry Potter nerd.<br><br><b>To me </b>- I'm someone who loves to get lost (in a new city, in a forest, or in a book). I always have a desire to learn, try, and experience new things.</p><div class = "spacer1"></div>
+        <p class = "text"><b>What the world sees </b>- I'm a student at Northwestern.  I'm a coder, a mentor, a writer, and an aspiring designer.<br><br><b>What my friends see </b>- I'm reliable, creative, and supportive. I'm a dog-lover, a (sometimes poor) plant-mom, and a Harry Potter nerd.<br><br><b>What I see </b>- I'm someone who loves to get lost (in a new city, in a forest, or in a book). I always have a desire to learn, try, and experience new things.</p><div class = "spacer1"></div>
         `;
         nav.innerHTML = `
         <a class = "about-nav" id = "about-nav-here" data-id="about-1">Who I am</a>
