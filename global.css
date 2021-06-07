@@ -723,6 +723,18 @@ Image/caption:
     margin: 0rem;
   }
 
+  .collage-dtr{
+    display: grid;
+    width:  80%;
+    padding-left: 10%;
+    grid-template-columns: 0.9fr 0.5fr;
+    grid-template-rows: 0.3fr;
+    grid-template-areas: 
+        "dtr1 dtr2";
+    grid-gap: 1rem;
+    margin: 0rem;
+  }
+
   .brainstorm1{
       grid-area: edc1;
   }
@@ -732,6 +744,14 @@ Image/caption:
 .brainstorm3{
     grid-area: edc3;
 }
+
+.prototype1{
+    grid-area: dtr1;
+}
+.prototype2{
+  grid-area: dtr2;
+}
+ 
 
 section{
     display: flex;
