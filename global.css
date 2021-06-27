@@ -216,6 +216,8 @@ figcaption {
     text-decoration: none;
     color: #272727;
     padding: 4px;
+    border: 1px  solid #272727;
+    
 }
 
 .nav-text-here:hover{
@@ -247,7 +249,7 @@ figcaption {
     margin: 10px;
     padding: 4px;
     cursor: pointer;
-    border: 1px  solid #272727;
+    border: 1px solid #272727;
 }
 
 .about-tabs{
@@ -660,6 +662,12 @@ Image/caption:
         font-size: 12px;
     }
     .nav-text-here{
+        font-size: 12px;
+    }
+    .about-nav{
+        font-size: 12px;
+    }
+    #about-nav-here{
         font-size: 12px;
     }
     .name-text{
