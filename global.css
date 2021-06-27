@@ -32,6 +32,11 @@
 }
 
 @font-face{
+    font-family: 'Lato Bold Bold';
+    src: url(./text-styles/Lato/Lato-Regular.ttf);
+}
+
+@font-face{
     font-family: 'Lato';
     src: url(./text-styles/Lato/Lato-Thin.ttf);
 }
@@ -69,6 +74,7 @@ a {
 mark {
     background-color: #ffffff;
     color: #818181;
+    border-radius: 8px;
 }
 
 mark:hover {
@@ -213,6 +219,7 @@ figcaption {
     color: #272727;
     cursor: pointer;
     padding: 4px;
+    border-radius: 8px;
 }
 
 .nav-text-here{
@@ -220,13 +227,16 @@ figcaption {
     font-size: 18px;
     text-decoration: none;
     color: #272727;
+    background-color: #ffffff;
     padding: 4px;
-    border: 1px  solid #272727;
+    border-radius: 8px;
+    border: 1px solid #272727;
     
 }
 
 .nav-text-here:hover{
     background-color: #B0F2B4;
+    color: #272727;
     transition: 0.3s;
 }
 
@@ -244,6 +254,7 @@ figcaption {
     padding: 4px;
     cursor: pointer;
     transition: 0.3s;
+    border-radius: 8px;
 }
 
 #about-nav-here{
@@ -255,6 +266,7 @@ figcaption {
     padding: 4px;
     cursor: pointer;
     border: 1px solid #272727;
+    border-radius: 8px;
 }
 
 .about-tabs{
