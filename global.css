@@ -51,6 +51,7 @@ Text: #272727
 Background: #FFFFFF
 Main Color: #7B9EA8
 Accent: #B0F2B4
+#bae7bd;
 */
 
 body{
@@ -78,7 +79,7 @@ mark {
 }
 
 mark:hover {
-    background-color: #B0F2B4;
+    background-color: #bae7bd;
     transition: 0.3s;
 }
 
@@ -155,6 +156,7 @@ mark:hover {
     padding-left: 5%;
     padding-right: 5%;
     background-color: #a8ccd6;
+    background-color: #bae7bd;
 }
 
 .standout-text2{
@@ -235,13 +237,13 @@ figcaption {
 }
 
 .nav-text-here:hover{
-    background-color: #B0F2B4;
+    background-color: #bae7bd;
     color: #272727;
     transition: 0.3s;
 }
 
 .nav-text:hover{
-    background-color: #B0F2B4;
+    background-color: #bae7bd;
     transition: 0.3s;
 }
 
@@ -1011,7 +1013,7 @@ section{
 }
 
 .story:hover{
-    background-color: #B0F2B4;
+    background-color: #bae7bd;
     transition: 0.3s;
 }
 

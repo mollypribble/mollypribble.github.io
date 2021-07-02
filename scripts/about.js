@@ -9,7 +9,7 @@ const attachEventHandlers = () => {
 };
 
 const green = ev =>{
-    ev.currentTarget.style.backgroundColor = "#B0F2B4";
+    ev.currentTarget.style.backgroundColor = "#bae7bd";
 }
 
 const noGreen = ev =>{
