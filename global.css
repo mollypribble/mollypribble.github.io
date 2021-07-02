@@ -904,6 +904,11 @@ section{
     transition: 0.3s ease;
 }
 
+.logo-wrapper:hover .logo-image{
+    transform: scale(1.05);
+    transition: 0.3s ease;
+}
+
 .collage-image-wrapper:hover .collage-image-overlay {
     visibility: visible;
     opacity: 0.93;
