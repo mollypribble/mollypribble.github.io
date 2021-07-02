@@ -476,6 +476,15 @@ Image/caption:
     object-fit: cover;
 }
 
+.full-image-small{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
 .hero-image{
     width: 90%;
     margin-left: 5%;
@@ -778,8 +787,9 @@ Image/caption:
     width:  80%;
     padding-left: 10%;
     grid-template-columns: 0.5fr 0.5fr;
-    grid-template-rows: 0.3fr 0.15fr;
+    grid-template-rows: 0.6fr 0.3fr 0.15fr;
     grid-template-areas: 
+        "brain1 brain1"
         "edc1 edc3"
         "edc2 edc2";
     grid-gap: 1rem;
@@ -796,6 +806,10 @@ Image/caption:
         "dtr1 dtr2";
     grid-gap: 1rem;
     margin: 0rem;
+  }
+
+  .user-journeys{
+      grid-area: brain1;
   }
 
   .brainstorm1{
