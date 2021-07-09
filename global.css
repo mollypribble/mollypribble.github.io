@@ -143,6 +143,14 @@ mark:hover {
     margin-top: 0.5rem;
 }
 
+.header-text-2{
+    color: #a8ccd6;
+    font-family: 'Montserrat Bold';
+    font-size: 26px;
+    text-align: left;
+    margin-top: 0.5rem;
+}
+
 .standout-text{
     color: #272727;
     font-family: 'Montserrat Bold';
@@ -803,11 +811,34 @@ Image/caption:
     width:  80%;
     padding-left: 10%;
     grid-template-columns: 0.95fr 0.5fr;
-    grid-template-rows: 0.3fr;
+    grid-template-rows: 0.6fr 0.6fr 0.3fr;
     grid-template-areas: 
+        "s-board1 s-board1"
+        "s-board2 s-board2"
         "dtr1 dtr2";
     grid-gap: 1rem;
     margin: 0rem;
+  }
+
+  .collage-dtr-2{
+    display: grid;
+    width:  80%;
+    padding-left: 10%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 0.3fr;
+    grid-template-areas: 
+        "s-board"
+        "diagram";
+    grid-gap: 1rem;
+    margin: 0rem;
+  }
+
+  .coll1{
+    grid-area: s-board;
+  }
+
+  .coll2{
+    grid-area: diagram;
   }
 
   .user-journeys{
@@ -822,6 +853,14 @@ Image/caption:
 }
 .brainstorm3{
     grid-area: edc3;
+}
+
+.sb-dtr1{
+    grid-area: s-board1;
+}
+
+.sb-dtr2{
+    grid-area: s-board2;
 }
 
 .prototype1{
