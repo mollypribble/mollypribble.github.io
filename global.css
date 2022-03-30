@@ -70,6 +70,8 @@ Nav: .nav-text, .nav-text-here
 a {
     text-decoration: none;
     color: inherit;
+    font-style: italic;
+    font-weight: bold;
 }
 
 mark {
@@ -223,7 +225,7 @@ figcaption {
 }
 
 .nav-text{
-    font-family: 'Lato Bold';
+    font-family: 'Lato Italic';
     font-size: 18px;
     text-decoration: none;
     color: #272727;
@@ -233,14 +235,13 @@ figcaption {
 }
 
 .nav-text-here{
-    font-family: 'Lato Italic';
+    font-family: 'Lato Bold';
     font-size: 18px;
     text-decoration: none;
     color: #272727;
     background-color: #ffffff;
     padding: 4px;
     border-radius: 8px;
-    border: 1px solid #272727;
     
 }
 
