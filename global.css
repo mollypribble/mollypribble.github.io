@@ -71,7 +71,7 @@ a {
     text-decoration: none;
     color: inherit;
     font-style: italic;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 mark {
@@ -233,8 +233,9 @@ figcaption {
     text-decoration: none;
     color: #272727;
     cursor: pointer;
-    padding: 4px;
+    padding: 8px;
     border-radius: 8px;
+    letter-spacing: 1px;
 }
 
 .nav-text-here{
@@ -243,19 +244,21 @@ figcaption {
     text-decoration: none;
     color: #272727;
     background-color: #ffffff;
-    padding: 4px;
+    padding: 8px;
     border-radius: 8px;
     
 }
 
 .nav-text-here:hover{
     background-color: #bae7bd;
+    /* color: #bae7bd; */
     color: #272727;
     transition: 0.3s;
 }
 
 .nav-text:hover{
     background-color: #bae7bd;
+    /* color: #bae7bd; */
     transition: 0.3s;
 }
 
@@ -344,7 +347,7 @@ Image/caption:
 
 .footer{
     width: 100%;
-    height: 80px;
+    height: 70px;
     position: fixed;
     bottom: 0;
     background-color: #FFFFFF;
@@ -352,7 +355,7 @@ Image/caption:
 
 .icon-wrapper{
     /*width: 320px; */
-    width: 240px;
+    width: 210px;
     height: 100%;
     margin: auto;
 }
@@ -364,17 +367,17 @@ Image/caption:
 }
 
 .contact-icon{
-    width: 50px;
+    width: 40px;
     margin: 15px;
-    height: 50px;
+    height: 40px;
     float: left;
     opacity: 0.8;
 }
 
 .contact-icon:hover {
-    width: 58px;
+    width: 48px;
     margin: 11px;
-    height: 58px;
+    height: 48px;
     transition: 0.3s;
 }
 
@@ -554,7 +557,7 @@ Image/caption:
     max-width: 35%;
     margin-top: 40px;
     margin-bottom: 10px;
-    margin-right: 14%;
+    margin-right: 11%;
     float: right;
     object-fit: cover;
     overflow: hidden;
@@ -570,7 +573,7 @@ Image/caption:
 .left-text-smaller{
     width: 50%;
     margin-top: 10px;
-    margin-right: 10%;
+    margin-right: 10px;
     float: left;
 }
 
@@ -612,6 +615,10 @@ Image/caption:
 .spacer1{
     width: 100%;
     height: 200px;
+}
+.spacer1-mini{
+    width: 100%;
+    height: 50px;
 }
 .spacer2{
     width: 100%;
@@ -665,7 +672,7 @@ Image/caption:
     display: none;
 }
 
-@media only screen and (max-width: 1095px){
+@media only screen and (max-width: 1215px){
     .about-image{
         display: none;
     }
